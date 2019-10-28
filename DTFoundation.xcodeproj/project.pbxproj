@@ -86,8 +86,6 @@
 		A76DB4D716A5E5100010CD85 /* UIImage+DTFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A76DB4C516A5E50E0010CD85 /* UIImage+DTFoundation.m */; };
 		A76DB4DD16A5E5100010CD85 /* UIView+DTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A76DB4C816A5E50F0010CD85 /* UIView+DTFoundation.h */; };
 		A76DB4DF16A5E5100010CD85 /* UIView+DTFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A76DB4C916A5E50F0010CD85 /* UIView+DTFoundation.m */; };
-		A76DB4E116A5E5100010CD85 /* UIWebView+DTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A76DB4CA16A5E50F0010CD85 /* UIWebView+DTFoundation.h */; };
-		A76DB4E316A5E5100010CD85 /* UIWebView+DTFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A76DB4CB16A5E5100010CD85 /* UIWebView+DTFoundation.m */; };
 		A76DB4EF16A5E5590010CD85 /* NSDocument+DTFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A76DB4E516A5E5590010CD85 /* NSDocument+DTFoundation.m */; };
 		A76DB4F116A5E5590010CD85 /* NSImage+DTUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A76DB4E716A5E5590010CD85 /* NSImage+DTUtilities.m */; };
 		A76DB4F316A5E5590010CD85 /* NSValue+DTConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = A76DB4E916A5E5590010CD85 /* NSValue+DTConversion.m */; };
@@ -286,8 +284,6 @@
 		A7EA07E91A2B30F000B61CCE /* NSURL+DTAppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = A76DB4C116A5E50D0010CD85 /* NSURL+DTAppLinks.m */; };
 		A7EA07EA1A2B30F000B61CCE /* UIView+DTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A76DB4C816A5E50F0010CD85 /* UIView+DTFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7EA07EB1A2B30F000B61CCE /* UIView+DTFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A76DB4C916A5E50F0010CD85 /* UIView+DTFoundation.m */; };
-		A7EA07EC1A2B30F000B61CCE /* UIWebView+DTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A76DB4CA16A5E50F0010CD85 /* UIWebView+DTFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7EA07ED1A2B30F000B61CCE /* UIWebView+DTFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A76DB4CB16A5E5100010CD85 /* UIWebView+DTFoundation.m */; };
 		A7EA07EE1A2B310600B61CCE /* DTSidePanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = A74663B21743D43600D4D7D5 /* DTSidePanelController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7EA07EF1A2B310600B61CCE /* DTSidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74663B31743D43600D4D7D5 /* DTSidePanelController.m */; };
 		A7EA07F01A2B310600B61CCE /* UIViewController+DTSidePanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C92B67174F9AEC0019D70A /* UIViewController+DTSidePanelController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -726,8 +722,6 @@
 		A76DB4C516A5E50E0010CD85 /* UIImage+DTFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DTFoundation.m"; sourceTree = "<group>"; };
 		A76DB4C816A5E50F0010CD85 /* UIView+DTFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DTFoundation.h"; sourceTree = "<group>"; };
 		A76DB4C916A5E50F0010CD85 /* UIView+DTFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DTFoundation.m"; sourceTree = "<group>"; };
-		A76DB4CA16A5E50F0010CD85 /* UIWebView+DTFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+DTFoundation.h"; sourceTree = "<group>"; };
-		A76DB4CB16A5E5100010CD85 /* UIWebView+DTFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+DTFoundation.m"; sourceTree = "<group>"; };
 		A76DB4E416A5E5590010CD85 /* NSDocument+DTFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDocument+DTFoundation.h"; sourceTree = "<group>"; };
 		A76DB4E516A5E5590010CD85 /* NSDocument+DTFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDocument+DTFoundation.m"; sourceTree = "<group>"; };
 		A76DB4E616A5E5590010CD85 /* NSImage+DTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+DTUtilities.h"; sourceTree = "<group>"; };
@@ -1381,8 +1375,6 @@
 				A76DB4C116A5E50D0010CD85 /* NSURL+DTAppLinks.m */,
 				A76DB4C816A5E50F0010CD85 /* UIView+DTFoundation.h */,
 				A76DB4C916A5E50F0010CD85 /* UIView+DTFoundation.m */,
-				A76DB4CA16A5E50F0010CD85 /* UIWebView+DTFoundation.h */,
-				A76DB4CB16A5E5100010CD85 /* UIWebView+DTFoundation.m */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -1991,7 +1983,6 @@
 				A76DB4D116A5E5100010CD85 /* UIApplication+DTNetworkActivity.h in Headers */,
 				A76DB4D516A5E5100010CD85 /* UIImage+DTFoundation.h in Headers */,
 				A76DB4DD16A5E5100010CD85 /* UIView+DTFoundation.h in Headers */,
-				A76DB4E116A5E5100010CD85 /* UIWebView+DTFoundation.h in Headers */,
 				A7E88ED316BC0278008CBA9C /* DTCustomColoredAccessory.h in Headers */,
 				A730BCCF16D2892E003B849F /* DTTiledLayerWithoutFade.h in Headers */,
 				A7C92B6A174F9AEC0019D70A /* UIViewController+DTSidePanelController.h in Headers */,
@@ -2077,7 +2068,6 @@
 				A7EA07EE1A2B310600B61CCE /* DTSidePanelController.h in Headers */,
 				A7EA080C1A2B316100B61CCE /* NSFileWrapper+DTCopying.h in Headers */,
 				A7EA08261A2B318E00B61CCE /* DTExtendedFileAttributes.h in Headers */,
-				A7EA07EC1A2B30F000B61CCE /* UIWebView+DTFoundation.h in Headers */,
 				A7EA08141A2B316100B61CCE /* NSString+DTPaths.h in Headers */,
 				A7EA07DA1A2B30F000B61CCE /* DTTiledLayerWithoutFade.h in Headers */,
 				A7EA082E1A2B318E00B61CCE /* DTVersion.h in Headers */,
@@ -2591,6 +2581,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -2795,7 +2786,6 @@
 				F88FF6DB1920F1AF00120808 /* DTActionSheet.m in Sources */,
 				A76DB4D716A5E5100010CD85 /* UIImage+DTFoundation.m in Sources */,
 				A76DB4DF16A5E5100010CD85 /* UIView+DTFoundation.m in Sources */,
-				A76DB4E316A5E5100010CD85 /* UIWebView+DTFoundation.m in Sources */,
 				A7F3BD2C18436A0F00DB7854 /* DTSidePanelPanGestureRecognizer.m in Sources */,
 				A7E88ED516BC0278008CBA9C /* DTCustomColoredAccessory.m in Sources */,
 				A730BCD116D2892E003B849F /* DTTiledLayerWithoutFade.m in Sources */,
@@ -3066,7 +3056,6 @@
 				A7EA08231A2B318E00B61CCE /* DTAsyncFileDeleter.m in Sources */,
 				A7EA07E51A2B30F000B61CCE /* UIApplication+DTNetworkActivity.m in Sources */,
 				A7EA082F1A2B318E00B61CCE /* DTVersion.m in Sources */,
-				A7EA07ED1A2B30F000B61CCE /* UIWebView+DTFoundation.m in Sources */,
 				A7EA082D1A2B318E00B61CCE /* DTLog.m in Sources */,
 				A7EA08171A2B316100B61CCE /* NSString+DTURLEncoding.m in Sources */,
 				A7EA07F11A2B310600B61CCE /* UIViewController+DTSidePanelController.m in Sources */,
